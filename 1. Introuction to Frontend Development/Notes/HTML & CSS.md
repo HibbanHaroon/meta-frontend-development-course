@@ -12,7 +12,7 @@ HTML provides structure to a webpage. It contains tags and elements.
 ##### Elements and Tags
 Elements start with an opening tag < then p then >, and end with a closing tag < then / p and then >. 
 Tags can also be self closing like < br > or < br / >. 
-###### IMP. 
+##### IMP. 
 Tags make up elements which in turns provide structure to the webpage.
 
 ##### Creating an HTML Document
@@ -53,19 +53,19 @@ Contents of the webpage goes inside the body.
 9. div
 10. a
 
-###### Anchor Tag
+##### Anchor Tag
 Anchor Tag is used to create hyperlinks to link other pages.
 
 ```
 <a href="location.html">Our Location</a>
 ```
-###### Image Tag
+##### Image Tag
 
 ```
 <img src="cat.png" width="240" height="160" alt="A small cat">
 ```
 
-###### Table Tag
+##### Table Tag
 Table tag allows you to organize data in rows and column.
 
 ```
@@ -85,7 +85,7 @@ Table tag allows you to organize data in rows and column.
 </table>
 ```
 
-###### Form Tag
+##### Form Tag
 Forms when submitted sends a HTTP request to the server. 
 
 Form tags have action attribute which specifies the path or the url the form shiuld submit the request to. If the path is not specified, it submits the request to the same path as the current webpage. 
@@ -103,7 +103,7 @@ By using Form method, you can specify the HTTP method(either GET or POST) when s
 </form>
 ```
 
-###### Checkboxes
+##### Checkboxes
 
 ```
 <input type="checkbox" name="dog" value="dog">
@@ -113,7 +113,7 @@ By using Form method, you can specify the HTTP method(either GET or POST) when s
 <label for="cat">I own a cat</label><br>
 ```
 
-###### Radio Buttons
+##### Radio Buttons
 
 ```
 <input type="radio" name="right" value="right">
@@ -123,13 +123,13 @@ By using Form method, you can specify the HTTP method(either GET or POST) when s
 <label for="left">I am left-handed</label><br>
 ```
 
-###### Textarea
+##### Textarea
 
 ```
 <textareaname="multiline" rows="5"></textarea>
 ```
 
-###### Drop-down List
+##### Drop-down List
 
 ```
 <select name="food">
@@ -141,7 +141,7 @@ By using Form method, you can specify the HTTP method(either GET or POST) when s
 ##### Introduction to DOM
 Document Object Model. It is basically Tree structure of the objects. To represent the HTML Elements in JavaScript, the browser builds DOM.
 
-![[Screenshots/Pasted image 20230908051241.png]]
+![Introduction to DOM](https://raw.githubusercontent.com/HibbanHaroon/meta-frontend-development-course/main/1.%20Introuction%20to%20Frontend%20Development/Notes/Screenshots/Pasted%20image%2020230908051241.png)
 
 All the HTML elements are represented as objects in the Document Object Model. You can modify the HTML elements by accessing the objects in DOM.
 
@@ -157,34 +157,34 @@ p {
 
 p - Selector
 color: blue; - Declaration
-###### Inside the Declaration:
+##### Inside the Declaration:
 color - Property
 blue - Value
-###### How to link css file:
+##### How to link css file:
 ```
 <link rel="stylesheet" href="style.css"/>
 ```
 
 ##### Different Types of Selectors:
-###### 1. Element Selector
+##### 1. Element Selector
 ```
 p {
 	color: blue;
 }
 ```
-###### 2. ID Selector
+##### 2. ID Selector
 ```
 #first-id {
 	color: blue;
 }
 ```
-###### 3. Class Selector
+##### 3. Class Selector
 ```
 .first-class {
 	color: blue;
 }
 ```
-###### 4. Descendant Selector
+##### 4. Descendant Selector
 ```
 #first-id h1 {
   color: blue;
@@ -192,7 +192,7 @@ p {
 ```
 
 There maybe multi level children inside the element with id first-id such as a div > h1 or direct child h1. It applies to all the direct or indirect descendants.
-###### 5. Child Selector
+##### 5. Child Selector
 ```
 #blog > h1 {
   color: blue;
@@ -200,7 +200,7 @@ There maybe multi level children inside the element with id first-id such as a d
 ```
 
 This applies to the immediate children or the children at the single depth level.
-###### 6. :hover Pseudo-Class
+##### 6. :hover Pseudo-Class
 pseudo-class allows to select elements based on their state.
 
 ```
@@ -220,7 +220,7 @@ The layout can be changed by styling the display property.
 
 ##### Alignment
 Text can be aligned by using text-align property.
-###### Horizontally centering a div or element:
+##### Horizontally centering a div or element:
 The div and element needs to be a block element. margin auto is then used to center the element horizontally.
 
 ```
@@ -243,7 +243,7 @@ The div and element needs to be a block element. margin auto is then used to cen
 }
 ```
 
-###### Using Float to align right and left:
+##### Using Float to align right and left:
 ```
 .child {
   float: right;
