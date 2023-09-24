@@ -25,11 +25,11 @@ Basically responding and changing the styles according to the screen the content
 3. Media Queries
 
 ##### 1. Flexible Grids
-###### Gutters:
+##### Gutters:
 Spaces between the columns in a grid is called gutter. Not based on pixels but on percentage values.
 
 ##### 2. Fluid Images
-###### Max-Width: 100%
+##### Max-Width: 100%
 By setting this rule, the image can become smaller if the container of the image becomes smaller but never grow larger than the container.
 
 ##### 3. Media Queries
@@ -48,30 +48,30 @@ If the screen is smaller or equal to 700px apply the following rule.
 A point where the layout changes and adapt to the screen and provide the best style to the user. Basically a point where the style/layout changes.
 
 ##### Three types of grids in Responsive Grids
-###### 1. Fixed Grids
+##### 1. Fixed Grids
 The size of the columns remain the same and are fixed.
-###### 2. Fluid Grids
+##### 2. Fluid Grids
 The size of the columns resize to fill the available space.
-###### 3. Hybrid Grids
+##### 3. Hybrid Grids
 Containing both fixed and fluid grids
 
 ### Bootstrap
 A way to build fast responsive sites. It is a library of pre-written code in CSS and JavaScript. Bootstrap comes with multiple components for very fast construction of websites. Another important feature is responsive grids, Bootstrap comes with a pre-made set of CSS rules for building a responsive grid.
 
 ##### Important Bootstrap Classes
-###### 1. Container 
+##### 1. Container 
 It is a responsive container
-###### 2. Row
-###### 3. Col
-###### 4. Img-Fluid
+##### 2. Row
+##### 3. Col
+##### 4. Img-Fluid
 The image will resize to the size of the parent container (responsiveness)
-###### 5. Table
+##### 5. Table
 
 ##### Breakpoints in Bootstrap
 
 Infix is used to indicate the breakpoints.
 
-![[Screenshots/Pasted image 20230921021045.png]]
+![Breakpoints in Bootstrap](https://raw.githubusercontent.com/HibbanHaroon/meta-frontend-development-course/main/1.%20Introuction%20to%20Frontend%20Development/Notes/Screenshots/Pasted%20image%2020230921021045.png)
 
 Extra small is the default breakpoint since bootstrap is mobile first.
 
@@ -93,12 +93,12 @@ So now on mobiles both the divs will be stacked as exceeding the columns 12 will
 ##### Modifiers in Bootstrap
 Adds a CSS class to give visual style to the components.
 
-![[Screenshots/Pasted image 20230921021326.png]]
+![Modifiers in Bootstrap](https://raw.githubusercontent.com/HibbanHaroon/meta-frontend-development-course/main/1.%20Introuction%20to%20Frontend%20Development/Notes/Screenshots/Pasted%20image%2020230921021326.png)
 
 ##### Alerts 
 Alerts in Bootstrap used to show messages on which we requires user's immediate attention. 
-###### Primary Alert - Blue Color
-###### Danger Alert - Red Color
+##### Primary Alert - Blue Color
+##### Danger Alert - Red Color
 
 Example:
 ```
